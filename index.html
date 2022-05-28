@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balando | Boutique mode en ligne</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <script src="./assets/js/app.js" defer></script>
+</head>
+<body>
+    <!-- header -->
+    <header class="header" data-header>
+        <div class="container">
+            <div class="overlay" data-overlay></div>
+            <div class="header-search" style="display:none ;">
+                <input type="search" name="search" placeholder="Rechercher..." class="input-field">
+                
+                <button class="search-btn" aria-label="search"><ion-icon name="search-outline"></ion-icon></button>
+            </div>
+            <a href="#" class="logo">
+                <img src="./assets/images/logo.svg" alt="balando logo" width="126" height="26">
+            </a>
+
+            <div class="header__actions">
+                <button class="header__action-btn">
+                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                    <p class="header__action-label">Se connecter</p>
+                </button>
+                <button class="header__action-btn">
+                    <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+                    <p class="header__action-label">Rechercher</p>
+                </button>
+                <button class="header__action-btn">
+                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    <p class="header__action-label">Mes préféres</p>
+                    <div class="btn-badge" aria-hidden="true">4</div>
+                </button>
+                <button class="header__action-btn">
+                    <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+                    <p class="header__action-label">Mon panier</p>
+                    <div class="btn-badge" aria-hidden="true">7</div>
+                </button>
+            </div>
+            <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="navbar " data-navbar>
+                <div class="navbar__top">
+                    <a href="#" class="logo"><img src="./assets/images/logoplus.svg" alt="logo balando plus" width="126" height="26">
+                    </a>
+                    <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                </div>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="navbar__link">Femme</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar__link">Homme</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar__link">Enfant</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar__link">Lacoste</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar__link">Cadeaux</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <!-- hero -->
+        <article>
+            <section class="hero" style="background-image: url('./assets/images/bannerbalando.png')">
+                <div class="container">
+                    <div class="hero__content">
+                        <p class="hero__content-subtitle">
+                            Du sur-mesure pour vous
+                        </p>
+                        <h2 class="h1 hero__content-title">
+                            Des recommandations basées sur vos préférés
+                        </h2>
+                        <button class="btn btn-primary">
+                            Commander
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+    </main>
+
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+</body>
+</html>
